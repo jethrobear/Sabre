@@ -1,0 +1,70 @@
+﻿//UltimateWorks Ver1.1 READ BEFORE USE
+//Warning: plase do not set parameter to exceed limits, otherwise saber might malfunction.Parameters for time usually use 'ms' as an unit
+
+
+Tpon=800          /Holding time for Power on
+Tpoff=800         /Holding time for Power off
+Tout=200          /Holding time for Light on
+Tin=500           /Holding time for Light off
+Ts_switch=500     /Set switch time. Tin & Ts_switch number must be smaller than TEtrigger.
+
+
+Tautoin=60000     /Auto light off time.0: never auto light off 
+Tautooff=120000   /Auto power off time in standby mode. 0: never auto power off
+
+Tmute=500         /Time of entering mute mode when power off
+TLcolor=200       /Time of LEDbank switch when power on.If TLcolor>TEtrigger or TLcolor>Tin,the input parameter is invalid.
+
+
+BANK1=1023,0,0,0  /LED color set
+FBank1=1023,0,1023,0 /Foc color set
+
+BANK2=0,1023,0,0
+FBANK2=1023,1023,0,0
+
+BANK3=0,0,1023,0
+FBANK3=1023,1023,0,0
+
+BANK4=1023,700,700,0
+FBANK4=1023,0,1023,0
+
+BANK5=1023,0,700,0
+FBANK5=1023,1023,0,0
+
+BANK6=1023,700,0,0
+FBANK6=1023,0,1023,0
+
+
+
+
+
+
+
+
+
+//////Do not Change Below///////
+
+
+Vol=2             /Volume settings(0 mute,1 low，2 medium ，3 max)
+TBfreeze=200      
+TBMode=1
+TCfreeze=150
+TCMode=2,3
+TDfreeze=150
+TDmode=2,3
+TEtrigger=600
+TEmode=4
+TLon=2000
+TLoff=700
+Lbright=1023
+Ldeep=768
+LMode=2
+T_Breath=1000
+Out_Delay=300
+MD=30
+MT=2
+CD=4
+CT=30
+CL=30
+CW=0
+

@@ -1,0 +1,36 @@
+﻿//UltimateWorks Ver1.1  READ BEFORE USE
+//Warning: plase do not set parameters to exceed limits, otherwise saber might malfunction.
+Vol=2             /Volum settings(0 mute,1 low，2 medium ，3 max)
+
+TBfreeze=250      /Swing repeated triggering tme.Unit:ms
+TBMode=1	  /LED action when swing（1 no aciton 2 flash once 3 flash twise）
+TCfreeze=150      /Clash repeated triggering tme.Unit:ms
+TCMode=2,3        /LED action when Clash（1 no aciton 2 flash once 3 flash twise）
+TDfreeze=150      /Blaster repeated triggering tme.Unit:ms
+TDMode=2,3        / LED action when blaster （1 no aciton 2 flash once 3 flash twise）
+TEtrigger=600     /Lock-up repeated triggering tme.Unit:ms
+TEMode=4	  /LED action in lock-up mode（1 no aciton 2 flash once 3 flash twise，4 flash intensively）
+
+
+TLon=2000         /LED light on time
+TLoff=1000        /LED light off time
+
+Lbright=1023      /LED max brightness
+Ldeep=800 	  /LED min brightness (For Mode 2345 use)
+
+LMode=1           /LED basic operation mode（1:static 2:breath 3 flash slowly 4 flash in medium speed 5 flash quicky）
+T_Breath=500      /Breath period
+
+Out_Delay=300     /Time between light on and background music
+
+CH1_Delay=0       /LED1 time-delay for out
+CH2_Delay=0       /LED2 time-delay for out
+CH3_Delay=0       /LED3 time-delay for outt
+CH4_Delay=0       /LED4 time-delay for out
+
+MD=60             /Swing time, the smaller number, the more sensitive
+MT=4              /Swing strengh the smaller number, the more sensitive
+CD=4              /Clash time,the smaller number, the more sensitive
+CT=25             /Clash strengh,the smaller number, the more sensitive
+CL=30
+CW=0
